@@ -10949,10 +10949,19 @@ section.resume-section .resume-section-content {
   width: 100%;
 }
 
+.cardbuttons {
+  display: flex;
+  justify-content: center;
+  gap: .5rem;
+  align-items: center;
+}
+
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
+    
   }
+  
 }
 @media (min-width: 992px) {
   section.resume-section {
@@ -10961,4 +10970,5 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+  
 }
